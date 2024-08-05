@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+}
+header{
+    background-color: blanchedalmond;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner{
+    width: 100%;
+    background-image: url(https://image.slidesdocs.com/responsive-images/background/aesthetic-composition-of-a-vase-on-pastel-beige-with-hanging-clothes-in-the-powerpoint-background_d40a7bf978__960_540.jpg);
+    height: 500px;
+    background-size: cover;
+}
+
+header button{
+    width:100px ;
+    height: 40px;
+    border-radius: 100px;
+}
+section{
+    background-color: rgb(243, 211, 174);
+    padding-top: 20px;
+}
+section span{
+    color: brown;
+    font-size: 25px;
+}
+section button{
+    background-color: rgb(243, 211, 174);
+    width: 90px;
+    height: 30px;
+    margin: 8px;
+    border-radius: 10px;
+    color: rgb(65, 9, 9);
+    font-size: 18px;
+ }
+ .row{
+    background-color:  rgb(243, 211, 174);
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.col{
+    background-color:rgb(243, 211, 174);
+    width: 300px;
+    height: 500px;
+    margin: 8px;
+    text-align: center;
+    color: rgb(8, 8, 8);
+    border-radius: 7px;
+   padding: 10px;
+}
+img{
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 280;
+    height: 400px;
+}
+img:hover{
+    box-shadow: 4px 6px rgb(52, 52, 56);
+}
+section button:hover{
+    background-color:rgb(65, 9, 9) ;
+    color:rgb(157, 157, 230); 
+}
+
+footer{
+    background-color:rgb(243, 211, 174) ;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    height: 100px;
+}
+footer h4{
+    color: rgb(70, 65, 65);
+}

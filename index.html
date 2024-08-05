@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Gallery</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- favicon -->
+     <link rel="icon" type="image/png" href="data:image/jpeg;base64,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">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Varela+Round&display=swap" rel="stylesheet">
+
+    </head>
+<body>
+    
+    <!-- header -->
+     <header>
+        <h3>Book Gallery</h3>
+        <button>Login</button>
+     </header>
+
+<!-- banner -->
+ <div class="banner">
+
+ </div>
+ <!-- section -->
+<section>
+    <h1>Available books</h1>
+    <div class="row">
+    <div class="col">
+        <img src="https://m.media-amazon.com/images/I/41JhQS3g8jL._SY445_SX342_.jpg" alt="">
+        <h4>Book Title</h4>
+        <h5 >Price <span>$599</span></h5>
+<button>Buy Now</button>
+    </div>
+
+<div class="col">
+<img src="https://m.media-amazon.com/images/I/41JhQS3g8jL._SY445_SX342_.jpg" alt="">
+        <h4>Book Title</h4>
+        <h5>Price <span>$599</span></h5>
+<button>Buy Now</button>
+</div>
+<div class="col">
+<img src="https://m.media-amazon.com/images/I/41JhQS3g8jL._SY445_SX342_.jpg" alt="">
+        <h4>Book Title</h4>
+        <h5>Price <span>$599</span></h5>
+<button>Buy Now</button>
+</div>
+<div class="col">
+<img src="https://m.media-amazon.com/images/I/41JhQS3g8jL._SY445_SX342_.jpg" alt="">
+        <h4>Book Title</h4>
+        <h5>Price <span>$599</span></h5>
+<button>Buy Now</button>
+</div>
+<div class="col">
+<img src="https://m.media-amazon.com/images/I/41JhQS3g8jL._SY445_SX342_.jpg" alt="">
+        <h4>Book Title</h4>
+        <h5>Price<span>$599</span></h5>
+<button>Buy Now</button>
+</div>
+</section>
+<br><br><br>
+<!-- footer -->
+<footer>
+    <div class="">
+        <h2>For contact</h2>
+        <h4>Facebook</h4>
+        <h4>instagrm</h4>
+        <h4>Twitter</h4>
+    </div>
+
+    <div class="">
+        <h2>Location</h2>
+        <h4>kerala</h4>
+        <h4>bangalore</h4>
+        <h4>mumbai</h4>
+    </div>
+</footer>
+
+</body>
+</html>
